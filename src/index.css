@@ -12,8 +12,36 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Syne", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   background-color: var(--Primary-bg-color);
   color: var(--Primary-font-color);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 10px 0px;
+  font-weight: 500;
+}
+h1 {
+  color: var(--Primary-font-color);
+  font-size: 46px;
+  font-family: "Syne", sans-serif;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 28px;
+}
+h4 {
+  font-size: 24px;
+}
+p {
+  font-size: 20px;
+}
+a {
+  color: var(--Primary-font-color);
+  text-decoration: none;
 }

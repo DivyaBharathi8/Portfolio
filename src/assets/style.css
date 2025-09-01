@@ -1,22 +1,10 @@
-h1 {
-  color: var(--Primary-font-color);
-  font-size: 48px;
-}
-h2 {
-  font-size: 36px;
-}
-h3 {
-  font-size: 28px;
-}
-h4 {
-  font-size: 24px;
-}
-p {
-  font-size: 16px;
-}
-a {
-  color: var(--Primary-font-color);
-  text-decoration: none;
+:root {
+  --Primary-bg-color: #0b0d0e;
+  --Secondary-bg-color: #242424;
+  --Third-bg-color: #191919;
+  --Primary-font-color: #ffffff;
+  --Seconday-font-color: #35c6df;
+  --Footer-font-color: #bcbbbb;
 }
 
 .header {
@@ -71,6 +59,47 @@ a {
   background-color: var(--Primary-font-color);
   border-radius: 2px;
   transition: all 0.3s ease;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.p-50 {
+  padding: 0 50px;
+}
+.banner-section {
+  grid-column: 1fr 1fr;
+}
+.btn {
+  background-color: var(--Seconday-font-color);
+  color: var(--Primary-font-color);
+  font-size: 18px;
+  border-radius: 8px;
+  padding: 10px 24px;
+  border: none;
+}
+
+.hello-text {
+  font-size: 24px;
+  font-weight: 500;
+}
+.right-section {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 600px;
+  height: 100%;
+  margin-top: -80px;
+}
+.designation {
+  font-size: 34px;
+}
+.designation span {
+  color: var(--Seconday-font-color);
 }
 
 @media (max-width: 768px) {
