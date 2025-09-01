@@ -5,8 +5,8 @@ import BannerImg from "../assets/images/Banner.png";
 
 export default function BannerSection() {
   return (
-    <div className="banner-section flex-center p-50">
-      <div className="left-section left-section">
+    <div className="banner-section flex-center">
+      <div className="left-section p-50">
         <span className="hello-text">Hello It’s Me</span>
         <h1>Divya Bharathi</h1>
         <div className="designation">
